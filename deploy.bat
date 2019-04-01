@@ -1,0 +1,2 @@
+xcopy.exe .\plugins\materialx-export "%USERPROFILE%\Documents\Allegorithmic\Substance Painter\plugins\materialx-export" /I /Y
+xcopy.exe .\python "%USERPROFILE%\Documents\Allegorithmic\Substance Painter\plugins\materialx-export\python" /I /Y /S
