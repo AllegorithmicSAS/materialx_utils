@@ -1,6 +1,6 @@
-# Material X export for Substance Painter
+# MaterialX export for Substance Painter
 
-This plugin adds support for simple materialX support for Substance Painter.
+This plugin adds support for simple MaterialX support for Substance Painter.
 It currently only support arnold and Metallic/Roughness workflows
 
 ## Prerequisites
@@ -35,8 +35,8 @@ A correctly installed plugin will show up as a button in painter.
 To export:
 * Click the plugin button
 * Type in/browse for the location and file you want to export the textures. 
-The expected input is the materialX file to write, the textures for it will be written in the same
-directory as the materialX file
+The expected input is the MaterialX file to write, the textures for it will be written in the same
+directory as the MaterialX file
 * Click the export button
 
 When the path is setup you can easily reexport the textures by clicking export again

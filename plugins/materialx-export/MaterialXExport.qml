@@ -134,7 +134,7 @@ AlgWindow
             id: exportButton
             text: "Export"
             onClicked: {
-                statusLabel.text = "Exporting materialx file: " + filenameField.text;
+                statusLabel.text = "Exporting MaterialX file: " + filenameField.text;
                 progressWindow.open()
                 var map_data = ExportTools.exportMaps(filenameField.text)
                 ExportTools.writeMtlx(filenameField.text, map_data, window.emitPythonDone)
